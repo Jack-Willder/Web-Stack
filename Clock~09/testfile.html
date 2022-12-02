@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+        button {
+            position: absolute;
+            z-index: 100;
+            height: calc(100vh - 300px);
+            width: calc(100vw - 300px);
+        }
+        div {
+            position: absolute;
+            z-index: 50;
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <button>click</button>
+    <script src="Js/Notification.js"></script>
+</body>
+</html>
