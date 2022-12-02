@@ -33,7 +33,7 @@
     height: 50px;
     width: 50px;
     left: calc(300px + 1vw);
-    top: 2vh;
+    top: 5vh;
     background-color: whitesmoke;
     transition: left 100ms 300ms cubic-bezier(0.81, 0.13, 0.24, 0.87);
     cursor: pointer;
